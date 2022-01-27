@@ -107,7 +107,7 @@ async def on_afk(event):
             message_to_reply = (
                 f"◈I'm **OFFLINE**\n"
                 + f"**◈Since** `{total_afk_time}`"
-                + f"**◈Reason:- `**{reason}`"
+                + f"**◈Reason:`**{reason}`"
             )
         else:
             message_to_reply = f"**◈I'm sorry, I'm offline**\n" + \
